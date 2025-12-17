@@ -10,10 +10,12 @@ The goal of this project is learning and experimentation, not production use. It
 
 ## 📂 Repository Structure
 
+```
 root/
 ├── client/ # Frontend (React)
 ├── server/ # Backend (AWS + Go)
 └── README.md
+```
 
 ⸻
 
@@ -68,7 +70,7 @@ AWS Lambda (Go)
 DynamoDB / S3
 ```
 
-🧠 Learning Goals
+## 🧠 Learning Goals
 
 This project is designed to help understand:
 • Real-time systems using WebSockets
@@ -77,14 +79,8 @@ This project is designed to help understand:
 • Go for cloud-native services
 • Cost-efficient scaling for small workloads
 
-📄 License
-
-This project is licensed under the MIT License.
-
-You are free to use, modify, and learn from this project.
-
 ⸻
 
-✨ Author
+## ✨ Author
 
 Built as a personal learning project to explore real-time systems, AWS serverless infrastructure, and Go backend development.
