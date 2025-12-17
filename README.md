@@ -6,7 +6,7 @@ The goal of this project is learning and experimentation, not production use. It
 
 ⚠️ This project is not affiliated with Discord. All branding, assets, and UI are original or sourced from open libraries.
 
-⸻
+
 
 ## 📂 Repository Structure
 
@@ -17,21 +17,21 @@ root/
 └── README.md
 ```
 
-⸻
+
 
 ## 🖥️ Client (Frontend)
 
 Tech Stack
-• React
-• TypeScript
-• WebSocket (via API Gateway)
-• Modern component-based UI
+- React
+- TypeScript
+- WebSocket (via API Gateway)
+- Modern component-based UI
 
 Responsibilities
-• User interface (channels, chat, messages)
-• WebSocket connection management
-• Sending and receiving real-time messages
-• Authentication token handling
+- User interface (channels, chat, messages)
+- WebSocket connection management
+- Sending and receiving real-time messages
+- Authentication token handling
 
 Run locally
 
@@ -41,22 +41,21 @@ pnpm install
 pnpm run dev
 ```
 
-⸻
 
 ## ☁️ Server (Backend)
 
 Tech Stack
-• Go (Golang)
-• AWS Lambda
-• API Gateway (WebSocket API)
-• DynamoDB
-• S3 (optional, for attachments)
+- Go (Golang)
+- AWS Lambda
+- API Gateway (WebSocket API)
+- DynamoDB
+- S3 (optional, for attachments)
 
 Responsibilities
-• WebSocket connection lifecycle ($connect, $disconnect)
-• Message routing and fan-out
-• Message persistence
-• Channel membership management
+- WebSocket connection lifecycle ($connect, $disconnect)
+- Message routing and fan-out
+- Message persistence
+- Channel membership management
 
 Typical Architecture
 
@@ -73,13 +72,12 @@ DynamoDB / S3
 ## 🧠 Learning Goals
 
 This project is designed to help understand:
-• Real-time systems using WebSockets
-• Serverless architecture on AWS
-• Event-driven backend design
-• Go for cloud-native services
-• Cost-efficient scaling for small workloads
+- Real-time systems using WebSockets
+- Serverless architecture on AWS
+- Event-driven backend design
+- Go for cloud-native services
+- Cost-efficient scaling for small workloads
 
-⸻
 
 ## ✨ Author
 
