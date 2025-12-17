@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global base styles migrated to Tailwind where appropriate */
+@layer base {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
+
+  /* Keep the app and root full-height and flex container to match previous layout */
+  #root,
+  .App {
+    height: inherit;
+    display: flex;
+  }
+
+  /* Background color from original global.css */
+  body {
+    background-color: #2c2d32;
+  }
+
+  /*
+    Helper classes to mirror the original inline styles so you can gradually
+    replace inline style objects with Tailwind classes or these helpers.
+
+    Usage:
+      <div className="sidebar-small"></div>
+      <div className="sidebar-medium"></div>
+
+    You can also replace these with Tailwind utilities directly in JSX:
+      <div className="w-[72px] h-full bg-[#1F2225]"></div>
+      <div className="w-[240px] h-full bg-[#2E3136]"></div>
+  */
+  .sidebar-small {
+    width: 72px;
+    height: 100%;
+    background-color: #1f2225;
+  }
+  .sidebar-medium {
+    width: 240px;
+    height: 100%;
+    background-color: #2e3136;
+  }
+}
