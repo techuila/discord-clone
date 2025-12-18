@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router";
 import { path } from "../common/config/path";
-import { ChannelsRoot } from "./channels/root";
-import { FriendsPage } from "./channels/friends";
+import { HomeRoot } from "./home/root";
+import { FriendsPage } from "./home/friends";
 
 const router = createBrowserRouter([
   {
@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   },
   {
     path: path.channels.root.path,
-    element: <ChannelsRoot />,
+    element: <HomeRoot />,
     children: [
       {
         index: true,
