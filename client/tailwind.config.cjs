@@ -27,10 +27,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+      },
       colors: {
         // Project-specific colors (keeps parity with original styles)
         discordBg: "#2C2D32",      // body background
         accent: "#677bc3",         // spinner box color / accents
+        contentBg: "#323339"
       },
     },
   },
